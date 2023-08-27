@@ -106,7 +106,7 @@ h4 {
   margin-top: 0;
   margin-bottom: 7px;
   font-family: Open Sans, sans-serif;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .paper-headline h1, .text-block-2, .text-block-3 {
@@ -188,6 +188,7 @@ h4 {
   padding-bottom: 5px;
   padding-left: 10px;
   font-family: Open Sans, sans-serif;
+  font-size: 15px;
   font-style: normal;
 }
 
@@ -329,8 +330,9 @@ h4 {
 .job-title {
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 5px;
   font-family: Open Sans, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
 }
 
@@ -424,7 +426,7 @@ h4 {
   margin-top: 10px;
   margin-bottom: 0;
   font-family: Open Sans, sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
 }
 
@@ -436,6 +438,7 @@ h4 {
 
 .external-links-container {
   color: #000;
+  text-align: center;
   margin-left: 7px;
   margin-right: 7px;
   font-family: Open Sans, sans-serif;
@@ -446,6 +449,7 @@ h4 {
 .external-link {
   color: #2b6daa;
   text-align: center;
+  font-size: 16px;
   font-weight: 600;
 }
 
@@ -524,8 +528,20 @@ h4 {
     display: flex;
   }
 
+  .paper-headline {
+    font-size: 17px;
+  }
+
+  .paper-title, .author {
+    text-decoration: underline;
+  }
+
   .paper-category {
     padding-top: 10px;
+  }
+
+  .short-description {
+    font-size: 16px;
   }
 
   .accordion-item {
@@ -572,13 +588,8 @@ h4 {
     max-width: 33%;
   }
 
-  .name {
-    font-size: 20px;
-  }
-
   .job-title {
-    margin-top: 8px;
-    font-size: 16px;
+    margin-top: 20px;
   }
 
   .research-interests {
@@ -602,6 +613,11 @@ h4 {
     object-fit: fill;
   }
 
+  .bio {
+    margin-right: 10px;
+    padding-left: 0;
+  }
+
   .external-links-container {
     text-align: center;
   }
@@ -619,9 +635,25 @@ h4 {
     margin-top: 500px;
   }
 
+  .paper-headline {
+    font-size: 17px;
+  }
+
+  .paper-title, .author {
+    text-decoration: underline;
+  }
+
   .paper-category {
     padding-left: 3vw;
     padding-right: 3vw;
+  }
+
+  .paper {
+    margin-bottom: 10px;
+  }
+
+  .short-description {
+    font-size: 16px;
   }
 
   .accordion-toggle {
@@ -646,7 +678,19 @@ h4 {
     margin-right: 15px;
   }
 
-  .job-title, .research-interests, .email {
+  .name {
+    font-size: 22px;
+  }
+
+  .job-title, .research-interests {
+    margin-top: 10px;
+  }
+
+  .institution {
+    margin-bottom: 5px;
+  }
+
+  .email {
     margin-top: 10px;
   }
 
@@ -656,6 +700,15 @@ h4 {
   }
 
   .bio {
+    margin-right: 0;
     padding-left: 0;
+  }
+
+  .contact {
+    margin-top: 5px;
+  }
+
+  .div-block-10 {
+    margin-top: 10px;
   }
 }
