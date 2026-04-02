@@ -192,6 +192,34 @@ h4 {
   font-style: normal;
 }
 
+.related-note {
+  padding-bottom: 5px;
+  padding-left: 10px;
+  font-family: Open Sans, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  color: #000;
+}
+
+.related-note .note-title {
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.related-note .note-title:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+/* Match mobile behavior */
+@media screen and (max-width: 991px) {
+  .related-note .note-title {
+    text-decoration: underline;
+  }
+}
+
+
 .accordion-item {
   width: 63vw;
   padding-right: 17px;
